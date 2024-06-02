@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1ed760;
+}
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 132px;
+}
+.nav-item{
+    font-weight: 700;
+    padding :28px 17px;
+    color: white;
+}
+main{
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    color: #1ed760;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headline{
+    font-size: 146px;
+    line-height: 166px;
+    font-weight: 900;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+    
+}
+.headline_first{
+    position: relative;
+    left: -2.5em;
+}
+.sub-headline{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 18px;
+
+}
+.btn-area{
+    text-align: center;
+
+}
+.btn{
+    padding: 14px 32px;
+    border-radius: 500px;
+    background-color: #1ed760;
+    color: #2941ab;
+    font-weight: 700;
+    font-size: inherit;
+    border: none;
+}
+.btn:hover{
+    transform: scale(1.07);
+}
+footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+.footer-menu-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.country-area{
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.country-icon{
+    color: #919496;
+}
+
+
+.footer-menu-box_1{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.footer-menu-box_2{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+}
+.footer-icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-style{
+    color: white;
+}
+.icon-style:hover{
+    color: #2de26d;
+}
+.menu-item-title{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.menu-item{
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+.second-footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    margin-top: 12px;
+}
+.second-footer-menu-item_1{
+    color: #919496;
+    margin-right: 24px;
+}
+.second-footer-menu-item_2{
+    color: #919496;
+}
